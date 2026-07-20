@@ -97,4 +97,4 @@ python app.py
 ```
 
 ---
-*Developed by Ghazala Sarfraz*
+*Developed by Ghazala Sarfraz, Sadia Ihsan*
