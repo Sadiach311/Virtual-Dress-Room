@@ -35,8 +35,8 @@ graph TD
 
 ### 3️⃣ AI Engine & API (RunPod GPU Server)
 - **Folder:** `/RunPod-GPU-Server`
-- **Tech Stack:** RunPod, RTX 3090, PyTorch, IDM-VTON, Python (FastAPI / Serverless Worker)
-- **Role:** The core AI engine. It loads the massive 15GB IDM-VTON model into GPU VRAM to perform high-quality virtual try-on inference in under 30 seconds. It exposes a direct endpoint that the Laravel backend queries asynchronously to process images.
+- **Tech Stack:** RunPod, RTX 3090, PyTorch, VirtualFit AI, Python (FastAPI / Serverless Worker)
+- **Role:** The core AI engine. It loads the massive 15GB VirtualFit AI model into GPU VRAM to perform high-quality virtual try-on inference in under 30 seconds. It exposes a direct endpoint that the Laravel backend queries asynchronously to process images.
 
 ---
 
@@ -65,7 +65,7 @@ graph TD
 - **Frontend:** Flutter, Dart (Mobile) | Blade, JS, Custom Vanilla CSS (Web)
 - **Backend Core:** Laravel, PHP, MySQL
 - **Cloud Infrastructure:** RunPod (Cloud GPU)
-- **AI Models:** IDM-VTON, PyTorch, Diffusers, Detectron2, OpenPose
+- **AI Models:**  PyTorch, Diffusers, Detectron2, OpenPose
 
 ---
 
