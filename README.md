@@ -14,7 +14,7 @@ The project is structured into distinct layers to ensure high performance, separ
 graph TD
     A[📱 Mobile App Flutter] -->|Uploads Image & Garment| B(⚙️ Unified Laravel Web & API)
     W[💻 Laravel Web Client & Admin Panel] -->|Sends Try-On Request| B
-    B -->|Direct API Call / JSON| C[🚀 RunPod GPU Server IDM-VTON]
+    B -->|Direct API Call / JSON| C[🚀 RunPod GPU Server ]
     C -->|Generated Image| B
     B -->|Returns Final Try-On| A
     B -->|Displays Try-On Result| W
@@ -97,4 +97,4 @@ python app.py
 ```
 
 ---
-*Developed by Ghazala Sarfraz, Sadia Ihsan*
+*Developed by Sadia Ihsan*
